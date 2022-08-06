@@ -42,7 +42,7 @@ else
 fi
 
 # Add user to sudo group
-sudo adduser user sudo
+#sudo adduser user sudo
 
 # Set password of user to 'root'
 echo 'user:root' | sudo chpasswd
